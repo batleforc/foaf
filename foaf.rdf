@@ -1,7 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stylesheet.xslt" type="text/xsl"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns="http://usefulinc.com/ns/doap#">
   <foaf:Person rdf:about="#maximel" xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <foaf:name>Maxime Leriche</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:nick>Max</foaf:nick>
     <foaf:homepage rdf:resource="https://batleforc.github.io/foaf" />
-    <foaf:openid rdf:resource="https://batleforc.github.io/foaf" />
+    <foaf:knows>
+      <foaf:Person rdf:about="#colinP">
+        <foaf:name>Colin Placier</foaf:name>
+        <foaf:seeAlso rdf:resource="https://cplacier.github.io/foaf.rdf" />
+      </foaf:Person>
+      <foaf:Person rdf:about="#MelissaB">
+        <foaf:name>Melissa bertin</foaf:name>
+        <foaf:seeAlso rdf:resource="https://melissab79.github.io/foaf.rdf" />
+      </foaf:Person>
+      <foaf:Person rdf:about="#WilliamD">
+        <foaf:name>William Dorian</foaf:name>
+        <foaf:seeAlso rdf:resource="https://Willeme80.github.io/foaf.rdf" />
+      </foaf:Person>
+    </foaf:knows>
   </foaf:Person>
 </rdf:RDF>

@@ -13,3 +13,15 @@ Le lien du site web correspond a exposé de maniére statique le contenue du rep
 L'associatin vers la homepage est effectué via les méta présent dans Html > Head et ce a l'aide d'une balise Link.
 
 ## Exercice 2
+
+## Exercice 3
+
+A l'aide de la commande cURL, il est possible de récupérer son profil orcid aux format turtle en lui indiquant un header acceptant le format turtle.
+
+```bash
+curl -L -H "Accept: text/turtle" https://orcid.org/0000-0003-3671-9589
+```
+
+![result curl](./curlResult.png)
+
+En cas de besoin ce contenue peut dirrectement être copié dans un fichier .ttl .

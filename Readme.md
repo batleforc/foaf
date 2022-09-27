@@ -10,4 +10,6 @@ Afin d'allez plus loin deux lien sont a uttilisé:
 
 Le lien du site web correspond a exposé de maniére statique le contenue du repo. Pour cela il faut que le repo soit public et rend accessible le fichier foaf.rdf a l'addresse suivante [foaf.rdf](https://batleforc.github.io/foaf/foaf.rdf).
 
+L'associatin vers la homepage est effectué via les méta présent dans Html > Head et ce a l'aide d'une balise Link.
+
 ## Exercice 2

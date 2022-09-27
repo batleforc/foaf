@@ -1,5 +1,5 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns="http://usefulinc.com/ns/doap#">
-  <foaf:Person rdf:about="#danbri" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <foaf:Person rdf:about="#maximel" xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <foaf:name>Maxime Leriche</foaf:name>
     <foaf:homepage rdf:resource="https://batleforc.github.io/foaf" />
     <foaf:openid rdf:resource="https://batleforc.github.io/foaf" />
